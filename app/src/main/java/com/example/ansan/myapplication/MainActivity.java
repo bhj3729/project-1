@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
 
                 int inprice = Integer.parseInt(price);
                 int incount = Integer.parseInt(count);
+
+                int total = inprice * incount;
             }
         });
     }
