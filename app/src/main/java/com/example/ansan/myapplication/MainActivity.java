@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+                String price = e1.getText().toString();
+                String count = e2.getText().toString();
             }
         });
     }
