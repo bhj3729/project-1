@@ -5,11 +5,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
     Button b1;
     EditText e1, e2;
+    TextView t1;
 
 
     @Override
@@ -32,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
                 int incount = Integer.parseInt(count);
 
                 int total = inprice * incount;
+
+
             }
         });
     }
