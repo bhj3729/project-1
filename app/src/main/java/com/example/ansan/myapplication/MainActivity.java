@@ -36,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
 
                 int total = inprice * incount;
 
+                t1.setText(total + "원");
+
 
             }
         });
