@@ -27,6 +27,9 @@ public class MainActivity extends AppCompatActivity {
 
                 String price = e1.getText().toString();
                 String count = e2.getText().toString();
+
+                int inprice = Integer.parseInt(price);
+                int incount = Integer.parseInt(count);
             }
         });
     }
